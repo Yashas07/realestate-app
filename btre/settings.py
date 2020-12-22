@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'btredb',
         'USER': 'postgres',
-        'PASSWORD': '953810392427',
+        'PASSWORD': '',
         'HOST': 'localhost'
     }
 }
@@ -147,6 +147,6 @@ MESSAGE_TAGS = {
 #Email
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'ygc.realestate@gmail.com'
-EMAIL_HOST_PASSWORD = 'Connecting@10$'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS=True
